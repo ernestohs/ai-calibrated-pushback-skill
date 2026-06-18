@@ -20,6 +20,7 @@ This repository contains a modular system prompt that reconfigures the AI's core
 - [`system_prompt.md`](system_prompt.md): The core system instruction block to paste into Custom Instructions (ChatGPT), System Instructions (Gemini), or AI coding environments (like Cursor/Copilot).
 - [`GEMINI.md`](GEMINI.md): Instructions for using this skill specifically with Gemini CLI and the Google AI ecosystem.
 - [`CLAUDE.md`](CLAUDE.md): Instructions for using this skill specifically with Claude Code, the Claude API/Agent SDK, and Claude.ai.
+- [`CODEX.md`](CODEX.md): Instructions for using this skill with Codex CLI, the IDE extension, the Codex app, cloud tasks, and Codex skills.
 - [`rules/`](rules/): Modular rules breaking down the philosophy (Uncertainty, Modes, Tone).
 
 ## Usage
