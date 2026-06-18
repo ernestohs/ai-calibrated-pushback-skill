@@ -6,7 +6,7 @@ Based on the concepts outlined in [Stop Training Your AI to Agree With You](http
 
 ## The Problem
 
-Most modern AI models (like ChatGPT, Claude, or Codex) are optimized via RLHF (Reinforcement Learning from Human Feedback) to be pleasant, agreeable, and compliant. This creates the "Yes-Man" problem:
+Most modern AI models (like ChatGPT, Gemini, Claude, or Codex) are optimized via RLHF (Reinforcement Learning from Human Feedback) to be pleasant, agreeable, and compliant. This creates the "Yes-Man" problem:
 - You suggest a bad idea; it tells you it's a great direction.
 - You ask for a script that deletes a database without a backup; it writes the script eagerly.
 - It optimizes for user approval and momentum rather than technical rigor and outcomes.
@@ -17,11 +17,12 @@ This repository contains a modular system prompt that reconfigures the AI's core
 
 ## Contents
 
-- [`system_prompt.md`](system_prompt.md): The core system instruction block to paste into Custom Instructions (ChatGPT), System Prompts (API), or AI coding environments (like Cursor/Copilot).
+- [`system_prompt.md`](system_prompt.md): The core system instruction block to paste into Custom Instructions (ChatGPT), System Instructions (Gemini), or AI coding environments (like Cursor/Copilot).
+- [`GEMINI.md`](GEMINI.md): Instructions for using this skill specifically with Gemini CLI and the Google AI ecosystem.
 - [`rules/`](rules/): Modular rules breaking down the philosophy (Uncertainty, Modes, Tone).
 
 ## Usage
 
 1. Copy the contents of `system_prompt.md`.
-2. Paste it into your AI tool's "System Prompt", "Custom Instructions", or `.cursorrules` / `.windsurfrules` file.
+2. Paste it into your AI tool's "System Prompt", "Custom Instructions", "System Instructions", or `.cursorrules` / `.windsurfrules` file.
 3. Observe how the AI begins catching weak assumptions before executing code.
