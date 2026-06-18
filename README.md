@@ -2,11 +2,11 @@
 
 A system prompt framework designed to turn AI assistants from agreeable "yes-men" into highly effective, pragmatic coworkers. 
 
-Based on the concepts outlined in [Stop Training Your AI to Agree With You](https://gist.github.com/ernestohs/531c586187081908d3fd5ad083f33761).
+Based on the concepts outlined in [Stop Training Your AI to Agree With You](https://dev.to/ernestohs/stop-training-your-ai-to-agree-with-you-5gh7).
 
 ## The Problem
 
-Most modern AI models (like ChatGPT, Gemini, Claude, or Codex) are optimized via RLHF (Reinforcement Learning from Human Feedback) to be pleasant, agreeable, and compliant. This creates the "Yes-Man" problem:
+Most modern AI models (such as ChatGPT, Gemini, Claude, and Codex) are optimized via RLHF (Reinforcement Learning from Human Feedback) to be pleasant, agreeable, and compliant. This creates the "Yes-Man" problem:
 - You suggest a bad idea; it tells you it's a great direction.
 - You ask for a script that deletes a database without a backup; it writes the script eagerly.
 - It optimizes for user approval and momentum rather than technical rigor and outcomes.
